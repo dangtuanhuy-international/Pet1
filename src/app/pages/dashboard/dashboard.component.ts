@@ -25,17 +25,17 @@ export class DashboardComponent implements OnDestroy {
     type: 'primary',
   };
   rollerShadesCard: CardSettings = {
-    title: 'Roller Shades',
+    title: 'Fan',
     iconClass: 'nb-roller-shades',
     type: 'success',
   };
   wirelessAudioCard: CardSettings = {
-    title: 'Wireless Audio',
+    title: 'Server',
     iconClass: 'nb-audio',
     type: 'info',
   };
   coffeeMakerCard: CardSettings = {
-    title: 'Coffee Maker',
+    title: 'CPU',
     iconClass: 'nb-coffee-maker',
     type: 'warning',
   };
