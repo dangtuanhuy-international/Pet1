@@ -21,11 +21,13 @@ import { CountryOrderService } from './country-order.service';
 import { StatsProgressBarService } from './stats-progress-bar.service';
 import { VisitorsAnalyticsService } from './visitors-analytics.service';
 import { SecurityCamerasService } from './security-cameras.service';
+import { DeviceService } from './device.service';
 
 const SERVICES = [
   UserService,
   ElectricityService,
   SmartTableService,
+  DeviceService,
   UserActivityService,
   OrdersChartService,
   ProfitChartService,
