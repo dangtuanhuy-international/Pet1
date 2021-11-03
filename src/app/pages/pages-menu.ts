@@ -20,27 +20,28 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'Device management',
     icon: 'layout-outline',
     children: [
+      // {
+      //   title: 'Stepper',
+      //   link: '/pages/layout/stepper',
+      // },
       {
-        title: 'Stepper',
-        link: '/pages/layout/stepper',
-      },
-      {
-        title: 'List',
+        title: 'List of Device',
         link: '/pages/layout/list',
-      },
-      {
-        title: 'Infinite List',
-        link: '/pages/layout/infinite-list',
-      },
-      {
-        title: 'Accordion',
-        link: '/pages/layout/accordion',
-      },
-      {
-        title: 'Tabs',
-        pathMatch: 'prefix',
-        link: '/pages/layout/tabs',
-      },
+      }
+      // ,
+      // {
+      //   title: 'Infinite List',
+      //   link: '/pages/layout/infinite-list',
+      // },
+      // {
+      //   title: 'Accordion',
+      //   link: '/pages/layout/accordion',
+      // },
+      // {
+      //   title: 'Tabs',
+      //   pathMatch: 'prefix',
+      //   link: '/pages/layout/tabs',
+      // },
     ],
   },
   // {
